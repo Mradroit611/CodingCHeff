@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding_cheff</title>
+    <link rel="icon" href="/sources/coding_cheff.png" type="image/icon type">
+    <!-- <link rel="stylesheet" href="/css/contact_style.css"> -->
+    <link rel="stylesheet" href="/css/prism.css">
+    <script src="/JS/prism.js"></script>
+    <link rel="stylesheet" href="/css/stylee.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+
+</head>
+<body>
+    <body>
+        <!------------------------------------------ Navbar Section  ---------------------------------------->
+        
+        <nav>
+            <div class="navbar">
+              <i class='bx bx-menu'></i>
+              <div class="logo"><a href="/index.html">CodingCheff</a></div>
+              <div class="nav-links">
+                <div class="sidebar-logo">
+                  <span class="logo-name">CodingCheff</span>
+                  <i class='bx bx-x' ></i>
+                </div>
+                <ul class="links">
+                  <li><a href="/index.html">HOME</a></li>
+                  <li><a href="/pages/blog.html">BLOG</a></li>
+                  <li>
+                    <a href="#">HTML & CSS</a>
+                    <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                    <ul class="htmlCss-sub-menu sub-menu">
+                      <li><a href="/html&Css/website_designs.html">Website Designs</a></li>
+                      <li><a href="/html&Css/login_forms.html">Login Forms</a></li>
+                      <li><a href="/html&Css/card_designs.html">Card Design</a></li>
+                      <li><a href="/html&Css/Navigation_bars.html">Navigation Bars</a></li>
+                      <li><a href="#">Sidebar Menu</a></li>
+                      <li class="more">
+                        <span><a href="#">More</a>
+                        <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                      </span>
+                        <ul class="more-sub-menu sub-menu">
+                          <li><a href="#">Glowing Effects</a></li>
+                          <li><a href="/html&Css/CSS_buttons.html">CSS Buttons</a></li>
+                          <li><a href="#">Loaders</a></li>
+                          <li><a href="/html&Css/3D_animations.html">3D-Aniamtions</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">JAVASCRIPT</a>
+                    <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                    <ul class="js-sub-menu sub-menu">
+                      <li><a href="/Javascript_programs/image_sliders.html">Image SLiders</a></li>
+                      <li><a href="/Javascript_programs/carousel.html">Carousel</a></li>
+                      <li><a href="#">Form Validation</a></li>
+                      <!-- <li><a href="#">API projects</a></li> -->
+                    </ul>
+                  </li>
+                  <li><a href="/pages/contact_us.html">CONTACT US</a></li>
+                </ul>
+              </div>
+              <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                  <input type="text" placeholder="Search...">
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!------------------------------------------- End of Navbar Section  -------------------------------->
+        <!------------------------------------------- mid Section  ------------------------------------------>
+        <div class="container">
+            <ol>
+                <li><b>HTML Code:</b> 
+                    <pre class="language-html"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Codingcheff - Search bar&lt;/title&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;section class="container"&gt;
+        &lt;form action=""&gt;
+            &lt;img class="icon" src="/sources/search.png" alt=""&gt;
+            &lt;input type="search" name="" id="search-item" placeholder="Search anime" onkeyup="search()"&gt;
+        &lt;/form&gt;
+        &lt;div class="anime-list" id="anime-list"&gt;
+            &lt;div class="anime"&gt;
+                &lt;img src="/sources/Death Notee.png" alt=""&gt;
+                &lt;div class="a-details"&gt;
+                    &lt;h2&gt;Death Note&lt;/h2&gt;
+                    &lt;h3&gt;Release Date: 2003&lt;/h3&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class="anime"&gt;
+                &lt;img src="/sources/DBZ.png" alt=""&gt;
+                &lt;div class="a-details"&gt;
+                    &lt;h2&gt;Dragon Ball Z&lt;/h2&gt;
+                    &lt;h3&gt;Release Date: 2002&lt;/h3&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="anime"&gt;
+                &lt;img src="/sources/Demonslayer.png" alt=""&gt;
+                &lt;div class="a-details"&gt;
+                    &lt;h2&gt;Demonslayer&lt;/h2&gt;
+                    &lt;h3&gt;Release Date: 2003&lt;/h3&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="anime"&gt;
+                &lt;img src="/sources/Enazuma eleven.jpg" alt=""&gt;
+                &lt;div class="a-details"&gt;
+                    &lt;h2&gt;Inazuma Eleven&lt;/h2&gt;
+                    &lt;h3&gt;Release Date: 2004&lt;/h3&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="anime"&gt;
+                &lt;img src="/sources/Haikyuu.png" alt=""&gt;
+                &lt;div class="a-details"&gt;
+                    &lt;h2&gt;Haikyuu&lt;/h2&gt;
+                    &lt;h3&gt;Release Date: 2005&lt;/h3&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="anime"&gt;
+                &lt;img src="/sources/Hero Academia.png" alt=""&gt;
+                &lt;div class="a-details"&gt;
+                    &lt;h2&gt;Hero Academia&lt;/h2&gt;
+                    &lt;h3&gt;Release Date: 2004&lt;/h3&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="anime"&gt;
+                &lt;img src="/sources/kuroko.png" alt=""&gt;
+                &lt;div class="a-details"&gt;
+                    &lt;h2&gt;Kuroko&lt;/h2&gt;
+                    &lt;h3&gt;Release Date: 2005&lt;/h3&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="anime"&gt;
+                &lt;img src="/sources/naruto.png" alt=""&gt;
+                &lt;div class="a-details"&gt;
+                    &lt;h2&gt;Naruto&lt;/h2&gt;
+                    &lt;h3&gt;Release Date: 2006&lt;/h3&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="anime"&gt;
+                &lt;img src="/sources/one piece.jpg" alt=""&gt;
+                &lt;div class="a-details"&gt;
+                    &lt;h2&gt;One piece&lt;/h2&gt;
+                    &lt;h3&gt;Release Date: 2007&lt;/h3&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="anime"&gt;
+                &lt;img src="/sources/Parasytee.png" alt=""&gt;
+                &lt;div class="a-details"&gt;
+                    &lt;h2&gt;Parasyte&lt;/h2&gt;
+                    &lt;h3&gt;Release Date: 2006&lt;/h3&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;script src="/script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+                         </code></pre>
+                </li> 
+                <li><b>CSS Code:</b> 
+                    <pre class="language-js"><code>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    
+}
+.container{
+    margin-top: 40px;
+    width: 375px;
+    height: 520px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgb(0, 0, 0.6);
+    padding: 30px;
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar{ /*To remove the scroll bar */
+    display: none;
+}
+.container form{
+    width: 100%;
+    border: 1px solid rgb(238, 238, 248);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 280px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+}
+form input:focus{
+    background-color: transparent;
+}
+.anime{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.anime img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.anime-list{
+    padding: 20px 0;
+}
+.anime .a-details{
+    padding-left: 15px;
+}
+.anime .a-details h2{
+    font-size: 20px;
+    /* color: black; */
+}
+
+                 </code></pre>
+                </li>
+
+                <li><b>JS Code:</b> 
+                    <pre class="language-js"><code>
+const search = () => {
+    const searchbox = document.getElementById("search-item").value.toUpperCase();
+    const storeitems = document.getElementById("anime-list");
+    const anime = document.querySelectorAll(".anime");
+    const aname = storeitems.getElementsByTagName("h2");
+
+    for(var i = 0; i < aname.length; i++){
+        let match = anime[i].getElementsByTagName('h2')[0];
+
+        if(match){
+            let textvalue = match.textContent || match.innerHTML
+
+            if(textvalue.toUpperCase().indexOf(searchbox) > -1){
+                anime[i].style.display = "";
+            }else{
+                anime[i].style.display = "none";
+            }
+        }
+    }
+}
+                          
+                        
+                 </code></pre>
+                </li>
+                <li>
+                  <div class="telegram">
+                    <h5>Join Telegram Channel for Resources</h5>
+                    <a
+                         class="btn btn-outline-dark btn-floating m-1"
+                         class="text-black"
+                         role="button"
+                         href="https://t.me/codingcheff"
+                         ><i class="fab fa-telegram"></i
+                        ></a>
+                  </div>
+                </li>
+            </ol>
+        </div>
+        <!------------------------------------------- mid Section  ------------------------------------------>
+
+        <!----------------------------------------------- Footer Section  ------------------------------------->
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div>
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #45526e"
+          >
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              CodingCheff
+            </h6>
+            <p>
+              Coding_cheff, your virtual guide to the delicious world of web development.
+              We serve up sizzling web development tips and tricks to make your coding journey a flavorful experience
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+            <p>
+              <a class="text-white">Web Designing</a>
+            </p>
+            <p>
+              <a class="text-white">Web Development</a>
+            </p>
+            <p>
+              <a class="text-white">App Designing</a>
+            </p>
+            <p>
+              <a class="text-white">App Development</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white" href="/index.html">Home</a>
+            </p>
+            <p>
+              <a class="text-white" href="/pages/blog.html">Blog</a>
+            </p>
+            <p>
+              <a class="text-white" href="/pages/contact_us.html">Contact Us</a>
+            </p>
+            
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> India, Delhi Shahdara</p>
+            <p><i class="fas fa-envelope mr-3"></i> codingcheff@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +91 9868980710</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-3">
+
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2023 Copyright:
+              <a class="text-white" href="http://codingcheff.000.pe/"
+                 >codingcheff.com</a
+                >
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button" href="http://codingcheff.000.pe/"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="https://www.instagram.com/coding_cheff/"
+               ><i class="fab fa-instagram"></i
+              ></a>
+
+              <!-- Github  -->
+              <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="https://github.com/Mradroit611"
+               ><i class="fab fa-github"></i
+              ></a>
+
+              <!-- Linkedin  -->
+              <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="www.linkedin.com/in/sanjay-verma-149910245"
+               ><i class="fab fa-linkedin"></i
+              ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+        <!-----------------------------------------------end of Footer Section  ------------------------------------->
+
+        <!-- Scroll to Top button  -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+        <!-- end of scroll button  -->
+        <!-- Loading Spinner -->
+        <div class="loader"></div>
+        <!-- end of loading spinner  -->
+
+        <!-- script  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="/JS/contact.js"></script>
+</body>
+</html>

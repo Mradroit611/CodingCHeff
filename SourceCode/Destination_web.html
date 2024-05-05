@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding_cheff</title>
+    <link rel="icon" href="/sources/coding_cheff.png" type="image/icon type">
+    <!-- <link rel="stylesheet" href="/css/contact_style.css"> -->
+    <link rel="stylesheet" href="/css/prism.css">
+    <script src="/JS/prism.js"></script>
+    <link rel="stylesheet" href="/css/stylee.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+
+</head>
+<body>
+    <body>
+        <!------------------------------------------ Navbar Section  ---------------------------------------->
+        
+        <nav>
+            <div class="navbar">
+              <i class='bx bx-menu'></i>
+              <div class="logo"><a href="/index.html">CodingCheff</a></div>
+              <div class="nav-links">
+                <div class="sidebar-logo">
+                  <span class="logo-name">CodingCheff</span>
+                  <i class='bx bx-x' ></i>
+                </div>
+                <ul class="links">
+                  <li><a href="/index.html">HOME</a></li>
+                  <li><a href="/pages/blog.html">BLOG</a></li>
+                  <li>
+                    <a href="#">HTML & CSS</a>
+                    <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                    <ul class="htmlCss-sub-menu sub-menu">
+                      <li><a href="/html&Css/website_designs.html">Website Designs</a></li>
+                      <li><a href="/html&Css/login_forms.html">Login Forms</a></li>
+                      <li><a href="/html&Css/card_designs.html">Card Design</a></li>
+                      <li><a href="/html&Css/Navigation_bars.html">Navigation Bars</a></li>
+                      <li><a href="#">Sidebar Menu</a></li>
+                      <li class="more">
+                        <span><a href="#">More</a>
+                        <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                      </span>
+                        <ul class="more-sub-menu sub-menu">
+                          <li><a href="#">Glowing Effects</a></li>
+                          <li><a href="/html&Css/CSS_buttons.html">CSS Buttons</a></li>
+                          <li><a href="#">Loaders</a></li>
+                          <li><a href="/html&Css/3D_animations.html">3D-Aniamtions</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">JAVASCRIPT</a>
+                    <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                    <ul class="js-sub-menu sub-menu">
+                      <li><a href="/Javascript_programs/image_sliders.html">Image SLiders</a></li>
+                      <li><a href="/Javascript_programs/carousel.html">Carousel</a></li>
+                      <li><a href="#">Form Validation</a></li>
+                      <!-- <li><a href="#">API projects</a></li> -->
+                    </ul>
+                  </li>
+                  <li><a href="/pages/contact_us.html">CONTACT US</a></li>
+                </ul>
+              </div>
+              <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                  <input type="text" placeholder="Search...">
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!------------------------------------------- End of Navbar Section  -------------------------------->
+        <!------------------------------------------- mid Section  ------------------------------------------>
+        <div class="container">
+            <ol>
+                <li><b>HTML Code:</b> 
+                    <pre class="language-html"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en" &gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Coding_cheff - Destination-website&lt;/title&gt;
+  &lt;link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap'&gt;&lt;link rel="stylesheet" href="./style.css"&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="page-wrap"&gt;
+  &lt;header class="page-header"&gt;
+
+    &lt;nav&gt;
+      &lt;h1&gt;Coding_cheff_Trip&lt;/h1&gt;
+      &lt;ul&gt;
+        &lt;li id="burger"&gt;
+          &lt;span&gt;&lt;/span&gt;
+          &lt;span&gt;&lt;/span&gt;
+          &lt;span&gt;&lt;/span&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+
+    &lt;main&gt;
+      &lt;article id="hero-1" style="--i: 5"&gt;
+        &lt;div class="hero-info"&gt;
+          &lt;h2&gt;Explore the&lt;/h2&gt;
+          &lt;h1&gt;AULI&lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;div class="hero-image hi-1"&gt;&lt;/div&gt;
+      &lt;/article&gt;
+
+      &lt;article id="hero-2" style="--i: 4"&gt;
+        &lt;div class="hero-info"&gt;
+          &lt;h1&gt;MANALI&lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;div class="hero-image hi-2"&gt;&lt;/div&gt;
+
+      &lt;/article&gt;
+
+      &lt;article id="hero-3" style="--i: 3"&gt;
+        &lt;div class="hero-info"&gt;
+          &lt;h1&gt;CHOPTA&lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;div class="hero-image hi-3"&gt;&lt;/div&gt;
+
+      &lt;/article&gt;
+
+      &lt;article id="hero-4" style="--i: 2"&gt;
+        &lt;div class="hero-info"&gt;
+          &lt;h1&gt;Sikkim&lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;div class="hero-image hi-4"&gt;&lt;/div&gt;
+
+      &lt;/article&gt;
+
+      &lt;article id="hero-5" style="--i: 1"&gt;
+        &lt;div class="hero-info"&gt;
+          &lt;h1&gt;Gulmarg&lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;div class="hero-image hi-5"&gt;&lt;/div&gt;
+      &lt;/article&gt;
+    &lt;/main&gt;
+
+  &lt;/header&gt;
+
+  &lt;section&gt;
+    &lt;ul class="level-1"&gt;
+      &lt;li&gt;
+        &lt;h3&gt;Vacations Destination&lt;/h3&gt;
+        &lt;ul class="level-2"&gt;
+          &lt;li&gt;
+            &lt;p&gt;Winter&lt;/p&gt;
+            &lt;ul class="level-3"&gt;
+              &lt;li&gt;Kasauli&lt;/li&gt;
+              &lt;li&gt;Mukteshwar&lt;/li&gt;
+              &lt;li&gt;Chail&lt;/li&gt;
+              &lt;li&gt;Chakrata&lt;/li&gt;
+              &lt;li&gt;Gulmarg&lt;/li&gt;
+              &lt;li&gt;Kullu Manali&lt;/li&gt;
+              &lt;li&gt;Kufri&lt;/li&gt;
+              &lt;li&gt;Sikkim&lt;/li&gt;
+              &lt;li&gt;Masoori&lt;/li&gt;
+              &lt;li&gt;Nainital&lt;/li&gt;
+              &lt;li&gt;Chopta&lt;/li&gt;
+              &lt;li&gt;Auli&lt;/li&gt;
+              &lt;li&gt;Spiti Valley&lt;/li&gt;
+              &lt;li&gt;Shimla&lt;/li&gt;
+              &lt;li&gt;Kidarnath&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Summer&lt;/p&gt;
+            &lt;ul class="level-3"&gt;
+              &lt;li&gt;Delhi&lt;/li&gt;
+              &lt;li&gt;Gujarat&lt;/li&gt;
+              &lt;li&gt;Rajasthan&lt;/li&gt;
+              &lt;li&gt;Kerala&lt;/li&gt;
+              &lt;li&gt;Orisa&lt;/li&gt;
+              &lt;li&gt;Goa&lt;/li&gt;
+              &lt;li&gt;Maharashtra&lt;/li&gt;
+              &lt;li&gt;Mumbai&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;h3&gt;Travel Transports&lt;/h3&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Airline&lt;/li&gt;
+          &lt;li&gt;Train&lt;/li&gt;
+          &lt;li&gt;Bus&lt;/li&gt;
+          &lt;li&gt;Car&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;small&gt;More transports...&lt;/small&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      
+      &lt;li&gt;
+        &lt;h3&gt;About Us&lt;/h3&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Instagram&lt;/li&gt;
+          &lt;li&gt;YouTube&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/section&gt;
+
+&lt;/div&gt;
+  &lt;script src='https://unpkg.co/gsap@3/dist/gsap.min.js'&gt;&lt;/script&gt;&lt;script  src="./script.js"&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+                         </code></pre>
+                </li> 
+                <li><b>CSS Code:</b> 
+                    <pre class="language-js"><code>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  --black: #242424;
+  --white: #f5f5f5;
+  --pill: rgb(255, 255, 255);
+  --red: rgb(0, 0, 0);
+}
+
+ul {
+  list-style: none;
+}
+
+.page-wrap {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/*  NAV ----------------------------------------------- */
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  padding: 1em 5em;
+  display: flex;
+  justify-content: space-between;
+}
+nav h1 {
+  font-size: clamp(1.2rem, 6vw, 3rem);
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--pill);
+  font-size: 1.3rem;
+  background-color: var(--red);
+  padding: 5px 10px;
+}
+nav ul {
+  display: flex;
+  color: var(--white);
+}
+nav ul li:not(#burger) {
+  visibility: hidden;
+  margin-right: 1.5em;
+}
+
+#burger {
+  width: min-content;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+#burger span {
+  display: block;
+  height: 3px;
+  width: 22px;
+  background-color: var(--red);
+  border-radius: 200px;
+  transition: transform 0.3s 0.3s;
+}
+
+.active span:nth-of-type(1) {
+  transform: translateY(-3px) scaleX(1.3);
+}
+.active span:nth-of-type(3) {
+  transform: translateY(3px) scaleX(1.3);
+}
+
+/* Slider Section----------------------------------------------- */
+main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+article {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: var(--i);
+}
+
+.hero-info {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  z-index: 8;
+}
+.hero-info h2 {
+  font-size: clamp(2rem, 9vw, 5rem);
+  line-height: clamp(2rem, 9vw, 5rem);
+  text-transform: uppercase;
+}
+.hero-info h1 {
+  color: var(--white);
+  font-size: clamp(3.2rem, 10vw, 7rem);
+  line-height: clamp(3.2rem, 10vw, 7rem);
+  text-transform: uppercase;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+.hero-info h3 {
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin-top: 2em;
+}
+@supports (-webkit-text-stroke: 3px var(--pill)) {
+  .hero-info h2 {
+    color: transparent;
+    -webkit-text-stroke: 3px var(--pill);
+    text-shadow: none;
+  }
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.hi-1 {
+  background-image: url("/Auli.jfif");
+}
+
+.hi-2 {
+  background-image: url("/manali.jpg");
+}
+
+.hi-3 {
+  background-image: url("/chopta.jpg");
+}
+
+.hi-4 {
+  background-image: url("/sikkim.jpg");
+}
+
+.hi-5 {
+  background-image: url("/Gulmarg.jpg");
+}
+
+/*  SECTION ----------------------------------------------- */
+section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  min-height: 100vh;
+  padding: 8em 5em 2em 5em;
+  background-color: var(--white);
+  background-image: url("https://www.transparenttextures.com/patterns/church.png");
+  clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+}
+
+.level-1 {
+  display: grid;
+  grid-template-columns: 65% 1fr;
+  grid-auto-rows: min-content;
+  grid-gap: 2em;
+}
+.level-1 h3 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.level-1 p {
+  margin: 0.5em 0 0 0.5em;
+}
+.level-1 p small {
+  font-size: 1rem;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.level-1 p small:hover {
+  opacity: 1;
+  color: var(--red);
+}
+.level-1 ul > li {
+  font-size: 1.2rem;
+  padding: 0.3em;
+  transition: color 0.3s;
+}
+.level-1 ul > li:hover {
+  color: var(--red);
+  cursor: pointer;
+}
+.level-1 li:nth-of-type(1) {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+.level-1 li:nth-of-type(2) {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.level-1 li:nth-of-type(3) {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.level-1 li:nth-of-type(4) {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.level-2 {
+  padding: 0.3em 1em;
+}
+.level-2 li p {
+  color: var(--red);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 1em 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fde0ac;
+}
+
+.level-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.level-3 li {
+  padding: 0.5em 1em !important;
+  background-color: var(--pill);
+  border-radius: 500px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem !important;
+  cursor: pointer;
+  color: var(--black);
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 1em 2em;
+  }
+  nav h1 {
+    font-size: 0.9rem;
+  }
+  section {
+    padding: 8em 2em 2em 2em;
+  }
+  .level-1 {
+    grid-template-columns: 1fr;
+  }
+  .level-1 li:nth-of-type(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .level-1 li:nth-of-type(2) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .level-1 li:nth-of-type(3) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .level-1 li:nth-of-type(4) {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+}
+
+                 </code></pre>
+                </li>
+
+                <li><b>JS Code:</b> 
+                    <pre class="language-js"><code>
+let burger = document.getElementById("burger");
+let overlay = document.querySelector("section");
+let heroImage = document.querySelector(".hero-image");
+let showMenu = false;
+let del = 3;
+let i = 1;
+
+let tl = gsap.timeline({
+  repeat: -1,
+  yoyo: true,
+  ease: "expo.out"
+});
+
+overlay.style.display = "none";
+
+burger.addEventListener("click", (e) => {
+  showMenu = !showMenu;
+  if (showMenu) {
+    burger.classList.add("active");
+    overlay.style.display = "block";
+    gsap.to(overlay, 1, {
+      clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
+      ease: "expo.in"
+    });
+  } else {
+    burger.classList.remove("active");
+    gsap.to(overlay, 1, {
+      clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
+      ease: "expo.out",
+      onComplete: () => (overlay.style.display = "none")
+    });
+  }
+});
+
+gsap.set(["#hero-1 h2, #hero-1 h1, #hero-1 h3"], {
+  clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"
+});
+
+gsap.set(
+  [
+    `#hero-2 h2, #hero-3 h2, #hero-4 h2, #hero-5 h2,
+     #hero-2 h1, #hero-3 h1, #hero-4 h1, #hero-5 h1,
+     #hero-2 h3, #hero-3 h3, #hero-4 h3, #hero-5 h3`
+  ],
+  {
+    clipPath: "polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)"
+  }
+);
+
+while (i < 5) {
+  tl.to(`#hero-${i} h2`, 0.9, {
+    clipPath: "polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)",
+    delay: del
+  })
+    .to(
+      `#hero-${i} h1`,
+      0.9,
+      {
+        clipPath: "polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)"
+      },
+      "-=0.3"
+    )
+    .to(
+      `#hero-${i} h3`,
+      0.9,
+      {
+        clipPath: "polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)"
+      },
+      "-=0.3"
+    )
+    .to(
+      `#hero-${i} .hi-${i}`,
+      0.7,
+      {
+        clipPath: "polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)"
+      },
+      "-=1"
+    )
+    .to(`#hero-${i + 1} h2`, 0.9, {
+      clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"
+    })
+    .to(
+      `#hero-${i + 1} h1`,
+      0.9,
+      {
+        clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"
+      },
+      "-=0.3"
+    )
+    .to(
+      `#hero-${i + 1} h3`,
+      0.9,
+      {
+        clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"
+      },
+      "-=0.3"
+    );
+
+  i++;
+}
+                          
+                        
+                 </code></pre>
+                </li>
+                <li>
+                  <div class="telegram">
+                    <h5>Join Telegram Channel for Resources</h5>
+                    <a
+                         class="btn btn-outline-dark btn-floating m-1"
+                         class="text-black"
+                         role="button"
+                         href="https://t.me/codingcheff"
+                         ><i class="fab fa-telegram"></i
+                        ></a>
+                  </div>
+                </li>
+            </ol>
+        </div>
+        <!------------------------------------------- mid Section  ------------------------------------------>
+
+        <!----------------------------------------------- Footer Section  ------------------------------------->
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div>
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #45526e"
+          >
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              CodingCheff
+            </h6>
+            <p>
+              Coding_cheff, your virtual guide to the delicious world of web development.
+              We serve up sizzling web development tips and tricks to make your coding journey a flavorful experience
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+            <p>
+              <a class="text-white">Web Designing</a>
+            </p>
+            <p>
+              <a class="text-white">Web Development</a>
+            </p>
+            <p>
+              <a class="text-white">App Designing</a>
+            </p>
+            <p>
+              <a class="text-white">App Development</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white" href="/index.html">Home</a>
+            </p>
+            <p>
+              <a class="text-white" href="/pages/blog.html">Blog</a>
+            </p>
+            <p>
+              <a class="text-white" href="/pages/contact_us.html">Contact Us</a>
+            </p>
+            
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> India, Delhi Shahdara</p>
+            <p><i class="fas fa-envelope mr-3"></i> codingcheff@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +91 9868980710</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-3">
+
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2023 Copyright:
+              <a class="text-white" href="http://codingcheff.000.pe/"
+                 >codingcheff.com</a
+                >
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button" href="http://codingcheff.000.pe/"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="https://www.instagram.com/coding_cheff/"
+               ><i class="fab fa-instagram"></i
+              ></a>
+
+              <!-- Github  -->
+              <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="https://github.com/Mradroit611"
+               ><i class="fab fa-github"></i
+              ></a>
+
+              <!-- Linkedin  -->
+              <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="www.linkedin.com/in/sanjay-verma-149910245"
+               ><i class="fab fa-linkedin"></i
+              ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+        <!-----------------------------------------------end of Footer Section  ------------------------------------->
+
+        <!-- Scroll to Top button  -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+        <!-- end of scroll button  -->
+        <!-- Loading Spinner -->
+        <div class="loader"></div>
+        <!-- end of loading spinner  -->
+
+        <!-- script  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="/JS/contact.js"></script>
+</body>
+</html>

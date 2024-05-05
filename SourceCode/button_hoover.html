@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding_cheff</title>
+    <link rel="icon" href="/sources/coding_cheff.png" type="image/icon type">
+    <!-- <link rel="stylesheet" href="/css/contact_style.css"> -->
+    <link rel="stylesheet" href="/css/prism.css">
+    <script src="/JS/prism.js"></script>
+    <link rel="stylesheet" href="/css/stylee.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+
+</head>
+<body>
+    <body>
+        <!------------------------------------------ Navbar Section  ---------------------------------------->
+        
+        <nav>
+            <div class="navbar">
+              <i class='bx bx-menu'></i>
+              <div class="logo"><a href="/index.html">CodingCheff</a></div>
+              <div class="nav-links">
+                <div class="sidebar-logo">
+                  <span class="logo-name">CodingCheff</span>
+                  <i class='bx bx-x' ></i>
+                </div>
+                <ul class="links">
+                  <li><a href="/index.html">HOME</a></li>
+                  <li><a href="/pages/blog.html">BLOG</a></li>
+                  <li>
+                    <a href="#">HTML & CSS</a>
+                    <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                    <ul class="htmlCss-sub-menu sub-menu">
+                      <li><a href="/html&Css/website_designs.html">Website Designs</a></li>
+                      <li><a href="/html&Css/login_forms.html">Login Forms</a></li>
+                      <li><a href="/html&Css/card_designs.html">Card Design</a></li>
+                      <li><a href="/html&Css/Navigation_bars.html">Navigation Bars</a></li>
+                      <li><a href="#">Sidebar Menu</a></li>
+                      <li class="more">
+                        <span><a href="#">More</a>
+                        <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                      </span>
+                        <ul class="more-sub-menu sub-menu">
+                          <li><a href="#">Glowing Effects</a></li>
+                          <li><a href="/html&Css/CSS_buttons.html">CSS Buttons</a></li>
+                          <li><a href="#">Loaders</a></li>
+                          <li><a href="/html&Css/3D_animations.html">3D-Aniamtions</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">JAVASCRIPT</a>
+                    <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                    <ul class="js-sub-menu sub-menu">
+                      <li><a href="/Javascript_programs/image_sliders.html">Image SLiders</a></li>
+                      <li><a href="/Javascript_programs/carousel.html">Carousel</a></li>
+                      <li><a href="#">Form Validation</a></li>
+                      <!-- <li><a href="#">API projects</a></li> -->
+                    </ul>
+                  </li>
+                  <li><a href="/pages/contact_us.html">CONTACT US</a></li>
+                </ul>
+              </div>
+              <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                  <input type="text" placeholder="Search...">
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!------------------------------------------- End of Navbar Section  -------------------------------->
+        <!------------------------------------------- mid Section  ------------------------------------------>
+        <div class="container">
+            <ol>
+                <li><b>HTML Code:</b> 
+                    <pre class="language-html"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en" &gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Coding_cheff_CSS_button_hoover_effects&lt;/title&gt;
+  &lt;link rel="stylesheet" href="./style.css"&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+  
+&lt;h1&gt;Coding_cheff : CSS buttons hover effects&lt;/h1&gt;
+&lt;div class="btn-holder"&gt;
+  &lt;button class="btn btn-1 hover-filled-slide-down"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-1 hover-filled-slide-up"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-1 hover-filled-slide-left"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-1 hover-filled-slide-right"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-1 hover-filled-opacity"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="btn-holder"&gt;
+  &lt;button class="btn btn-2 hover-slide-down"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-2 hover-slide-up"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-2 hover-slide-left"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-2 hover-slide-right"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-2 hover-opacity"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;div class='btn-holder'&gt;
+  &lt;button class="btn btn-3 hover-border-1"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-3 hover-border-2"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-3 hover-border-3"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-3 hover-border-4"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-3 hover-border-5"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="btn-holder"&gt;
+  &lt;button class="btn btn-4 hover-border-6"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-4 hover-border-7"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-4 hover-border-8"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-4 hover-border-9"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;button class="btn btn-4 hover-border-10"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="btn-holder"&gt;
+  &lt;button class="btn btn-5 hover-border-11"&gt;
+    &lt;span&gt;hover me&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+                         </code></pre>
+                </li> 
+                <li><b>CSS Code:</b> 
+                    <pre class="language-js"><code>
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(85,75,85);
+  background-color: rgb(255,255,255);
+}
+h1 {
+  padding: 50px 0;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(54, 56, 55);
+}
+:active, :hover, :focus {
+  outline: 0!important;
+  outline-offset: 0;
+}
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+
+.btn-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 10px auto 35px;
+}
+.btn {
+  position: relative;
+  display: inline-block;
+  width: auto; height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 25px 15px;
+  min-width: 150px;
+}
+  .btn span {         
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: 0.3s;
+  }
+
+/*--- btn-1 ---*/
+.btn-1::before {
+  background-color: rgb(28, 31, 30);
+  transition: 0.3s ease-out;
+}
+.btn-1 span {
+  color: rgb(255,255,255);
+  border: 1px solid rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+}
+.btn-1 span:hover {
+  color: rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+}
+
+.btn.hover-filled-slide-down::before {
+  bottom: 0; left: 0; right: 0; 
+  height: 100%; width: 100%;
+}
+.btn.hover-filled-slide-down:hover::before {
+  height: 0%;
+}
+
+/* 2.hover */
+.btn.hover-filled-slide-up::before {
+  top: 0; left: 0; right: 0;
+  height: 100%; width: 100%;
+}
+.btn.hover-filled-slide-up:hover::before {
+  height: 0%;
+}
+
+/* 3.hover */
+.btn.hover-filled-slide-left::before {
+  top: 0; bottom: 0; left: 0;
+  height: 100%; width: 100%;
+}
+.btn.hover-filled-slide-left:hover::before {
+  width: 0%;
+}
+
+/* 4. hover */
+.btn.hover-filled-slide-right::before {
+  top:0; bottom: 0; right: 0;
+  height: 100%; width: 100%;
+}
+.btn.hover-filled-slide-right:hover::before {
+  width: 0%;
+}
+
+/* 5. hover */
+.btn.hover-filled-opacity::before {
+  top:0; bottom: 0; right: 0;
+  height: 100%; width: 100%;
+  opacity: 1;
+}
+.btn.hover-filled-opacity:hover::before {
+  opacity: 0;
+}
+
+/*--- btn-2 ---*/
+.btn-2::before {
+  background-color: rgb(28, 31, 30);
+  transition: 0.3s ease-out;
+}
+.btn-2 span {
+  color: rgb(28, 31, 30);
+  border: 1px solid rgb(28, 31, 30);
+  transition: 0.2s;
+}  
+.btn-2 span:hover {
+  color: rgb(255,255,255);
+  transition: 0.2s 0.1s;
+}
+
+/* 6. hover*/
+.btn.hover-slide-down::before {
+  top: 0; left: 0; right: 0; 
+  height: 0%; width: 100%;
+}
+.btn.hover-slide-down:hover::before {
+  height: 100%;
+}
+
+/* 7. hover */
+.btn.hover-slide-up::before {
+  bottom: 0; left: 0; right: 0; 
+  height: 0%; width: 100%;
+}
+.btn.hover-slide-up:hover::before {
+  height: 100%;
+}
+
+/* 8. hover */
+.btn.hover-slide-left::before {
+  top: 0; bottom: 0; right: 0; 
+  height: 100%; width: 0%;
+}
+.btn.hover-slide-left:hover::before {
+  width: 100%;
+}
+
+/* 9. hover */
+.btn.hover-slide-right::before {
+  top: 0; bottom: 0; left: 0; 
+  height: 100%; width: 0%;
+}
+.btn.hover-slide-right:hover::before {
+  width: 100%;
+}
+
+/* 10. hover */
+.btn.hover-opacity::before {
+  top:0; bottom: 0; right: 0;
+  height: 100%; width: 100%;
+  opacity: 0;
+}
+.btn.hover-opacity:hover::before {
+  opacity: 1;
+}
+
+/*--- btn-3 ---*/
+.btn-3 {
+  padding: 5px;
+}
+.btn-3 span {
+  color: rgb(255, 255, 255);
+  background-color: rgb(54, 56, 55);
+}
+.btn-3::before,
+.btn-3::after {
+  background: transparent;
+  z-index: 2;
+}
+
+/* 11. hover*/
+.btn.hover-border-1::before,
+.btn.hover-border-1::after {
+  width: 10%; height: 25%;
+  transition: 0.35s;
+}
+.btn.hover-border-1::before {
+  top: 0; left: 0;
+  border-left: 1px solid rgb(28, 31, 30);
+  border-top: 1px solid rgb(28, 31, 30);
+}
+.btn.hover-border-1::after {
+  bottom: 0; right: 0;
+  border-right: 1px solid rgb(28, 31, 30);
+  border-bottom: 1px solid rgb(28, 31, 30);
+}
+.btn.hover-border-1:hover::before,
+.btn.hover-border-1:hover::after {
+  width: 99%;
+  height: 98%;
+}
+
+/* 12. hover*/
+.btn.hover-border-2::before,
+.btn.hover-border-2::after {
+  width: 10%; height: 25%;
+  transition: 0.35s;
+}
+.btn.hover-border-2::before {
+  bottom: 0; left: 0;
+  border-left: 1px solid rgb(28, 31, 30);
+  border-bottom: 1px solid rgb(28, 31, 30);
+}
+.btn.hover-border-2::after {
+  top: 0; right: 0;
+  border-right: 1px solid rgb(28, 31, 30);
+  border-top: 1px solid rgb(28, 31, 30);
+}
+.btn.hover-border-2:hover::before,
+.btn.hover-border-2:hover::after {
+  width: 99%;
+  height: 99%;
+}
+
+/* 13. hover*/
+.btn.hover-border-3::before,
+.btn.hover-border-3::after {
+  width: 0%; height: 0%;
+  opacity: 0;
+  transition: width 0.2s 0.15s linear, height 0.15s linear, opacity 0s 0.35s;
+}
+.btn.hover-border-3::before {
+  top: 0; right: 0;
+  border-top: 1px solid rgb(28, 31, 30);
+  border-left: 1px solid rgb(28, 31, 30);
+}
+.btn.hover-border-3::after {
+  bottom: 0; left: 0;
+  border-bottom: 1px solid rgb(28, 31, 30);
+  border-right: 1px solid rgb(28, 31, 30);
+}
+.btn.hover-border-3:hover::before,
+.btn.hover-border-3:hover::after {
+  width: 100%; height: 99%;
+  opacity: 1;
+  transition: width 0.2s linear, height 0.15s 0.2s linear, opacity 0s;   
+}
+
+/* 14. hover*/
+.btn.hover-border-4::before,
+.btn.hover-border-4::after {
+  width: 0%; height: 0%;
+  opacity: 0;
+  transition: width 0.2s linear, height 0.15s 0.2s ease-out, opacity 0s 0.35s;
+}
+.btn.hover-border-4::before {
+  bottom: 0; left: -1px;
+  border-top: 1px solid rgb(28, 31, 30);
+  border-left: 1px solid rgb(28, 31, 30);
+}
+.btn.hover-border-4::after {
+  top: 0; right: 0;
+  border-bottom: 1px solid rgb(28, 31, 30);
+  border-right: 1px solid rgb(28, 31, 30);
+}
+.btn.hover-border-4:hover::before,
+.btn.hover-border-4:hover::after {
+  width: 100%; height: 99%;
+  opacity: 1;
+  transition: width 0.2s 0.15s ease-out, height 0.15s ease-in, opacity 0s;   
+}
+
+/* 15. hover*/
+.btn.hover-border-5::before,
+.btn.hover-border-5::after {
+  width: 0%; height: 0%;
+  opacity: 0;
+}
+.btn.hover-border-5::before {
+  top: 0; right: 0;
+  border-top: 1px solid rgb(28, 31, 30);
+  border-left: 1px solid rgb(28, 31, 30);
+  transition: width 0.2s 0.5s ease-out, height 0.15s 0.35s linear, opacity 0s 0.7s;
+}
+.btn.hover-border-5::after {
+  bottom: 0; left: 0px;
+  border-bottom: 1px solid rgb(28, 31, 30);
+  border-right: 1px solid rgb(28, 31, 30);
+  transition: width 0.2s 0.15s linear, height 0.15s ease-in, opacity 0s 0.35s;
+}
+.btn.hover-border-5:hover::before,
+.btn.hover-border-5:hover::after {
+  width: 100%; height: 96%;
+  opacity: 1;
+}
+.btn.hover-border-5:hover::before {
+  transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s;   /* 1,2 */
+}
+.btn.hover-border-5:hover::after {
+  transition: width 0.2s 0.35s linear, height 0.15s 0.5s ease-out, opacity 0s 0.3s; 
+} 
+
+/*--- btn-4 ---*/
+.btn-4 span {
+  color: rgb(28, 31, 30);
+  background-color: rgb(245,245,245);
+}
+.btn-4 span:hover {
+  color: rgb(54, 56, 55);
+}
+.btn-4::before,
+.btn-4::after {
+  width: 15%; height: 2px;
+  background-color: rgb(54, 56, 55);
+  z-index: 2;
+}
+
+/* 16. hover*/
+.btn.hover-border-6::before,
+.btn.hover-border-6::after {
+  top: 0;
+  transition: width 0.2s 0.35s ease-out;
+}
+.btn.hover-border-6::before {
+  right: 50%;
+}
+.btn.hover-border-6::after {
+  left: 50%;
+}
+.btn.hover-border-6:hover::before,
+.btn.hover-border-6:hover::after {
+  width: 50%;
+  transition: width 0.2s ease-in;   
+}
+
+.btn.hover-border-6 span::before,
+.btn.hover-border-6 span::after {
+  width: 0%; height: 0%;
+  background: transparent;
+  opacity: 0;
+  z-index: 2;
+  transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s 0.35s;
+}
+.btn.hover-border-6 span::before {
+  top: 0; left: 0;
+  border-left: 2px solid rgb(54, 56, 55);
+  border-bottom: 2px solid rgb(54, 56, 55);
+}
+.btn.hover-border-6 span::after {
+  top: 0; right: 0;
+  border-right: 2px solid rgb(54, 56, 55);
+  border-bottom: 2px solid rgb(54, 56, 55);
+}
+.btn.hover-border-6 span:hover::before,
+.btn.hover-border-6 span:hover::after {
+  width: 50%; height: 96%;
+  opacity: 1;
+  transition: height 0.2s 0.2s ease-in, width 0.2s 0.4s linear, opacity 0s 0.2s;   
+}
+
+/* 17. hover*/
+.btn.hover-border-7::before,
+.btn.hover-border-7::after {
+  bottom: 0;
+  transition: width 0.2s 0.35s ease-out;
+}
+.btn.hover-border-7::before {
+  right: 50%;
+}
+.btn.hover-border-7::after {
+  left: 50%;
+}
+.btn.hover-border-7:hover::before,
+.btn.hover-border-7:hover::after {
+  width: 50%;
+  transition: width 0.2s ease-in;   
+}
+
+.btn.hover-border-7 span::before,
+.btn.hover-border-7 span::after {
+  width: 0%; height: 0%;
+  background: transparent;
+  opacity: 0;
+  z-index: 2;
+  transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s 0.35s;
+}
+.btn.hover-border-7 span::before {
+  bottom: 0; left: 0;
+  border-left: 2px solid rgb(54, 56, 55);
+  border-top: 2px solid rgb(54, 56, 55);
+}
+.btn.hover-border-7 span::after {
+  bottom: 0; right: 0;
+  border-right: 2px solid rgb(54, 56, 55);
+  border-top: 2px solid rgb(54, 56, 55);
+}
+.btn.hover-border-7 span:hover::before,
+.btn.hover-border-7 span:hover::after {
+  width: 50%; height: 96%;
+  opacity: 1;
+  transition: height 0.2s 0.2s ease-in, width 0.2s 0.4s linear, opacity 0s 0.2s;   
+}
+
+/* 18. hover*/
+.btn.hover-border-8::before,
+.btn.hover-border-8::after {
+  bottom: 0;
+  width: 15%;
+  transition: width 0.2s 0.35s ease-out;
+}
+.btn.hover-border-8::before {
+  right: 50%;
+}
+.btn.hover-border-8::after {
+  left: 50%;
+}
+.btn.hover-border-8:hover::before {
+  width: 50%;
+  transition: width 0.2s ease-in;   
+}
+.btn.hover-border-8:hover::after {
+  width: 50%;
+  transition: width 0.1s ease-in;   
+}
+
+.btn.hover-border-8 span::before,
+.btn.hover-border-8 span::after {
+  width: 0%; height: 0%;
+  bottom: 0;
+  background: transparent;
+  opacity: 0;
+  z-index: 2;
+}
+.btn.hover-border-8 span::before {
+  left: 0%;
+  border-left: 2px solid rgb(54, 56, 55);
+  transition: height 0.25s ease-in, opacity 0s 0.35s;   
+}
+.btn.hover-border-8 span:hover::before {
+  height: 96%;
+  opacity: 1;
+  transition: height 0.25s 0.2s ease-out, opacity 0s 0.2s;   
+}
+.btn.hover-border-8 span::after {
+  right: 0%;
+  border-right: 2px solid rgb(54, 56, 55);
+  border-top: 2px solid rgb(54, 56, 55);
+  transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s 0.35s;   
+}
+.btn.hover-border-8 span:hover::after {
+  width: 99%; height: 96%;
+  opacity: 1;
+  transition: height 0.15s 0.1s linear, width 0.2s 0.25s linear, opacity 0s 0.1s;   
+}
+
+/* 19. hover*/
+.btn.hover-border-9::before,
+.btn.hover-border-9::after {
+  bottom: 0;
+  width: 15%;
+  transition: width 0.2s 0.35s ease-out;
+}
+.btn.hover-border-9::before {
+  right: 50%;
+}
+.btn.hover-border-9::after {
+  left: 50%;
+}
+.btn.hover-border-9:hover::before {
+  width: 50%;
+  transition: width 0.1s ease-in;   
+}
+.btn.hover-border-9:hover::after {
+  width: 50%;
+  transition: width 0.2s ease-in;   
+}
+
+.btn.hover-border-9 span::before,
+.btn.hover-border-9 span::after {
+  width: 0%; height: 0%;
+  bottom: 0;
+  background: transparent;
+  opacity: 0;
+  z-index: 2;
+}
+.btn.hover-border-9 span::after {
+  right: 0%;
+  border-right: 2px solid rgb(54, 56, 55);
+  transition: height 0.25s ease-in, opacity 0s 0.35s;   
+}
+.btn.hover-border-9 span:hover::after {
+  height: 96%;
+  opacity: 1;
+  transition: height 0.25s 0.2s ease-out, opacity 0s 0.2s;   
+}
+.btn.hover-border-9 span::before {
+  left: 0%;
+  border-left: 2px solid rgb(54, 56, 55);
+  border-top: 2px solid rgb(54, 56, 55);
+  transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s 0.35s;   
+}
+.btn.hover-border-9 span:hover::before {
+  width: 98.5%; height: 96%;
+  opacity: 1;
+  transition: height 0.15s 0.1s linear, width 0.2s 0.25s linear, opacity 0s 0.1s;   
+}
+
+/* 20. hover*/
+.btn.hover-border-10::before,
+.btn.hover-border-10::after {
+  left: 0%;
+  height: 30%;
+  width: 2px;
+  transition: height 0.2s 0.35s ease-out;
+}
+.btn.hover-border-10::before {
+  top: 50%;
+}
+.btn.hover-border-10::after {
+  bottom: 50%;
+}
+.btn.hover-border-10:hover::before {
+  height: 50%;
+  transition: height 0.2s ease-in;   
+}
+.btn.hover-border-10:hover::after {
+  height: 50%;
+  transition: height 0.1s ease-in;   
+}
+
+.btn.hover-border-10 span::before,
+.btn.hover-border-10 span::after {
+  width: 0%; height: 0%;
+  background: transparent;
+  opacity: 0;
+  z-index: 2;
+}
+.btn.hover-border-10 span::after {
+  bottom: 0; left: 0%;
+  border-bottom: 2px solid rgb(54, 56, 55);
+  transition: width 0.25s ease-in, opacity 0s 0.35s;   
+}
+.btn.hover-border-10 span:hover::after {
+  width: 100%;
+  opacity: 1;
+  transition: width 0.25s 0.2s ease-out, opacity 0s 0.2s;   
+}
+.btn.hover-border-10 span::before {
+  top: 0%; left: 0%;
+  border-top: 2px solid rgb(54, 56, 55);
+  border-right: 2px solid rgb(54, 56, 55);
+  transition: height 0.15s ease-in, width 0.2s 0.15s linear, opacity 0s 0.35s;   
+}
+.btn.hover-border-10 span:hover::before {
+  width: 98.5%; height: 96%;
+  opacity: 1;
+  transition: width 0.2s 0.1s linear, height 0.15s 0.3s ease-out, opacity 0s 0.1s;   
+}
+
+/*--- btn-5 ---*/
+.btn-5 span {
+  color: rgb(28, 31, 30);
+  border: 2px solid rgb(249, 211, 27);
+  transition: 0.2s;
+}
+.btn-5 span:hover {
+  background-color: rgb(245,245,245);
+}
+
+/* 21. hover*/
+.btn.hover-border-11::before,
+.btn.hover-border-11::after {
+  width: 100%; height: 2px;
+  background-color: rgb(54, 56, 55);
+  z-index: 2;
+  transition: 0.35s; 
+}
+.btn.hover-border-11::before {
+  top: 0; right: 0;
+}
+.btn.hover-border-11::after {
+  bottom: 0; left: 0;
+}
+.btn.hover-border-11:hover::before,
+.btn.hover-border-11:hover::after {
+  width: 0%;
+  transition: 0.2s 0.2s ease-out; 
+}
+
+.btn.hover-border-11 span::before,
+.btn.hover-border-11 span::after {
+  width: 2px; height: 100%;
+  background-color: rgb(54, 56, 55);
+  z-index: 2;
+  transition: 0.25s; 
+}
+.btn.hover-border-11 span::before {
+  bottom: 0; right: -2px;
+}
+.btn.hover-border-11 span::after {
+  top: 0; left: -2px;
+}
+.btn.hover-border-11 span:hover::before,
+.btn.hover-border-11 span:hover::after {
+  height: 0%;
+}
+
+                 </code></pre>
+                </li>
+                <li>
+                  <div class="telegram">
+                    <h5>Join Telegram Channel for Resources</h5>
+                    <a
+                         class="btn btn-outline-dark btn-floating m-1"
+                         class="text-black"
+                         role="button"
+                         href="https://t.me/codingcheff"
+                         ><i class="fab fa-telegram"></i
+                        ></a>
+                  </div>
+                </li>
+            </ol>
+        </div>
+        <!------------------------------------------- mid Section  ------------------------------------------>
+
+        <!----------------------------------------------- Footer Section  ------------------------------------->
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div>
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #45526e"
+          >
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              CodingCheff
+            </h6>
+            <p>
+              Coding_cheff, your virtual guide to the delicious world of web development.
+              We serve up sizzling web development tips and tricks to make your coding journey a flavorful experience
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+            <p>
+              <a class="text-white">Web Designing</a>
+            </p>
+            <p>
+              <a class="text-white">Web Development</a>
+            </p>
+            <p>
+              <a class="text-white">App Designing</a>
+            </p>
+            <p>
+              <a class="text-white">App Development</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white" href="/index.html">Home</a>
+            </p>
+            <p>
+              <a class="text-white" href="/pages/blog.html">Blog</a>
+            </p>
+            <p>
+              <a class="text-white" href="/pages/contact_us.html">Contact Us</a>
+            </p>
+            
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> India, Delhi Shahdara</p>
+            <p><i class="fas fa-envelope mr-3"></i> codingcheff@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +91 9868980710</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-3">
+
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2023 Copyright:
+              <a class="text-white" href="http://codingcheff.000.pe/"
+                 >codingcheff.com</a
+                >
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button" href="http://codingcheff.000.pe/"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="https://www.instagram.com/coding_cheff/"
+               ><i class="fab fa-instagram"></i
+              ></a>
+
+              <!-- Github  -->
+              <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="https://github.com/Mradroit611"
+               ><i class="fab fa-github"></i
+              ></a>
+
+              <!-- Linkedin  -->
+              <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="www.linkedin.com/in/sanjay-verma-149910245"
+               ><i class="fab fa-linkedin"></i
+              ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+        <!-----------------------------------------------end of Footer Section  ------------------------------------->
+
+        <!-- Scroll to Top button  -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+        <!-- end of scroll button  -->
+        <!-- Loading Spinner -->
+        <div class="loader"></div>
+        <!-- end of loading spinner  -->
+
+        <!-- script  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="/JS/contact.js"></script>
+</body>
+</html>

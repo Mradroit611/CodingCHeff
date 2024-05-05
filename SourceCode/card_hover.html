@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding_cheff</title>
+    <link rel="icon" href="/sources/coding_cheff.png" type="image/icon type">
+    <!-- <link rel="stylesheet" href="/css/contact_style.css"> -->
+    <link rel="stylesheet" href="/css/prism.css">
+    <script src="/JS/prism.js"></script>
+    <link rel="stylesheet" href="/css/stylee.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+
+</head>
+<body>
+    <body>
+        <!------------------------------------------ Navbar Section  ---------------------------------------->
+        
+        <nav>
+            <div class="navbar">
+              <i class='bx bx-menu'></i>
+              <div class="logo"><a href="/index.html">CodingCheff</a></div>
+              <div class="nav-links">
+                <div class="sidebar-logo">
+                  <span class="logo-name">CodingCheff</span>
+                  <i class='bx bx-x' ></i>
+                </div>
+                <ul class="links">
+                  <li><a href="/index.html">HOME</a></li>
+                  <li><a href="/pages/blog.html">BLOG</a></li>
+                  <li>
+                    <a href="#">HTML & CSS</a>
+                    <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                    <ul class="htmlCss-sub-menu sub-menu">
+                      <li><a href="/html&Css/website_designs.html">Website Designs</a></li>
+                      <li><a href="/html&Css/login_forms.html">Login Forms</a></li>
+                      <li><a href="/html&Css/card_designs.html">Card Design</a></li>
+                      <li><a href="/html&Css/Navigation_bars.html">Navigation Bars</a></li>
+                      <li><a href="#">Sidebar Menu</a></li>
+                      <li class="more">
+                        <span><a href="#">More</a>
+                        <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                      </span>
+                        <ul class="more-sub-menu sub-menu">
+                          <li><a href="#">Glowing Effects</a></li>
+                          <li><a href="/html&Css/CSS_buttons.html">CSS Buttons</a></li>
+                          <li><a href="#">Loaders</a></li>
+                          <li><a href="/html&Css/3D_animations.html">3D-Aniamtions</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">JAVASCRIPT</a>
+                    <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                    <ul class="js-sub-menu sub-menu">
+                      <li><a href="/Javascript_programs/image_sliders.html">Image SLiders</a></li>
+                      <li><a href="/Javascript_programs/carousel.html">Carousel</a></li>
+                      <li><a href="#">Form Validation</a></li>
+                      <!-- <li><a href="#">API projects</a></li> -->
+                    </ul>
+                  </li>
+                  <li><a href="/pages/contact_us.html">CONTACT US</a></li>
+                </ul>
+              </div>
+              <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                  <input type="text" placeholder="Search...">
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!------------------------------------------- End of Navbar Section  -------------------------------->
+        <!------------------------------------------- mid Section  ------------------------------------------>
+        <div class="container">
+            <ol>
+                <li><b>HTML Code:</b> 
+                    <pre class="language-html"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en" &gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;CodePen - Card Hover&lt;/title&gt;
+  &lt;link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'&gt;
+&lt;link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css'&gt;&lt;link rel="stylesheet" href="./style.css"&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="wrapper"&gt;
+	&lt;div class="card"&gt;
+		&lt;div class="poster"&gt;&lt;img src="/life's too short.jpg" alt="Location Unknown"&gt;&lt;/div&gt;
+		&lt;div class="details"&gt;
+			&lt;h1&gt;Life's too Short&lt;/h1&gt;
+			&lt;h2&gt;2021 • 384 pages&lt;/h2&gt;
+			&lt;div class="rating"&gt;
+				&lt;i class="fas fa-star"&gt;&lt;/i&gt;
+				&lt;i class="fas fa-star"&gt;&lt;/i&gt;
+				&lt;i class="fas fa-star"&gt;&lt;/i&gt;
+				&lt;i class="fas fa-star"&gt;&lt;/i&gt;
+				&lt;i class="far fa-star"&gt;&lt;/i&gt;
+				&lt;span&gt;4.2/5&lt;/span&gt;
+			&lt;/div&gt;
+			&lt;div class="tags"&gt;
+				&lt;span class="tag"&gt;British&lt;/span&gt;
+				&lt;span class="tag"&gt;Comedy&lt;/span&gt;
+				&lt;span class="tag"&gt;Emotion&lt;/span&gt;
+			&lt;/div&gt;
+			&lt;p class="desc"&gt;
+				Life's Too Short is a British mockumentary sitcom.
+			&lt;/p&gt;
+			&lt;div class="cast"&gt;
+				&lt;h3&gt;Cast&lt;/h3&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;img src="https://i.postimg.cc/jqgkqhSb/cast-11.jpg" alt="Marco Andrews" title="Marco Andrews"&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;img src="https://i.postimg.cc/8P7X7r7r/cast-12.jpg" alt="Rebecca Floyd" title="Rebecca Floyd"&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;img src="https://i.postimg.cc/2SvHwRFk/cast-13.jpg
+" alt="Antonio Herrera" title="Antonio Herrera"&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="card"&gt;
+		&lt;div class="poster"&gt;&lt;img src="/rich dad poor dad.jpg" alt="Location Unknown"&gt;&lt;/div&gt;
+		&lt;div class="details"&gt;
+			&lt;h1&gt;RICH DAD POOR DAD&lt;/h1&gt;
+			&lt;h2&gt;1997 • 336 pages&lt;/h2&gt;
+			&lt;div class="rating"&gt;
+				&lt;i class="fas fa-star"&gt;&lt;/i&gt;
+				&lt;i class="fas fa-star"&gt;&lt;/i&gt;
+				&lt;i class="fas fa-star"&gt;&lt;/i&gt;
+				&lt;i class="fas fa-star"&gt;&lt;/i&gt;
+				&lt;i class="far fa-star"&gt;&lt;/i&gt;
+				&lt;span&gt;4/5&lt;/span&gt;
+			&lt;/div&gt;
+			&lt;div class="tags"&gt;
+				&lt;span class="tag"&gt;USA&lt;/span&gt;
+				&lt;span class="tag"&gt;Comedy&lt;/span&gt;
+				&lt;span class="tag"&gt;Business&lt;/span&gt;
+			&lt;/div&gt;
+			&lt;p class="desc"&gt;
+				Rich Dad Poor Dad by Robert Kiyosaki and Sharon Lechter.
+			&lt;/p&gt;
+			&lt;div class="cast"&gt;
+				&lt;h3&gt;Cast&lt;/h3&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;img src="https://i.postimg.cc/yY2QcYRp/cast-21.jpg" alt="Angelina Whyte" title="Angelina Whyte"&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;img src="https://i.postimg.cc/R0BgpsXc/cast-22.jpg" alt="Ivan Benson" title="Ivan Benson"&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="card"&gt;
+		&lt;div class="poster"&gt;&lt;img src="/one last stop.jpg" alt="Location Unknown"&gt;&lt;/div&gt;
+		&lt;div class="details"&gt;
+			&lt;h1&gt;One Last Stop&lt;/h1&gt;
+			&lt;h2&gt;2021 • 432 pages&lt;/h2&gt;
+			&lt;div class="rating"&gt;
+				&lt;i class="fas fa-star"&gt;&lt;/i&gt;
+				&lt;i class="fas fa-star"&gt;&lt;/i&gt;
+				&lt;i class="fas fa-star"&gt;&lt;/i&gt;
+				&lt;i class="fas fa-star"&gt;&lt;/i&gt;
+				&lt;i class="fas fa-star-half-alt"&gt;&lt;/i&gt;
+				&lt;span&gt;4.7/5&lt;/span&gt;
+			&lt;/div&gt;
+			&lt;div class="tags"&gt;
+				&lt;span class="tag yellow"&gt;NewYork&lt;/span&gt;
+				&lt;span class="tag"&gt;Comedy&lt;/span&gt;
+				&lt;span class="tag blue"&gt;Drama&lt;/span&gt;
+			&lt;/div&gt;
+			&lt;p class="desc"&gt;
+				Alex and his best friend goes on a road trip experiencing friendship.
+			&lt;/p&gt;
+			&lt;div class="cast"&gt;
+				&lt;h3&gt;Cast&lt;/h3&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;img src="https://i.postimg.cc/xd3twv4B/cast-31.jpg" alt="Jessica Enduro" title="Jessica Enduro"&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;img src="https://i.postimg.cc/C1MmSZy5/cast-32.jpg" alt="Charles Garcia" title="Charles Garcia"&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- partial --&gt;
+  
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+                         </code></pre>
+                </li> 
+                <li><b>CSS Code:</b> 
+                    <pre class="language-js"><code>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #6f36ff;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 325px;
+    height: 450px;
+    background: #000;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.poster {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.poster::before {
+    content: '';
+    position: absolute;
+    bottom: -45%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: .3s;
+}
+
+.card:hover .poster::before {
+    bottom: 0;
+}
+
+.poster img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.card:hover .poster img {
+    transform: scale(1.1);
+}
+
+.details {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 1.5em 1.5em 2em;
+    background: #000a;
+    backdrop-filter: blur(16px) saturate(120%);
+    transition: .3s;
+    color: #fff;
+    z-index: 2;
+}
+
+.card:hover .details {
+    bottom: 0;
+}
+
+.details h1,
+.details h2 {
+    font-weight: 700;
+}
+
+.details h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.details h2 {
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 10px;
+    opacity: .6;
+}
+
+.details .rating {
+    position: relative;
+    margin-bottom: 15px;
+    display: flex;
+    gap: .25em;
+}
+
+.details .rating i {
+    color: #e3c414;
+}
+
+.details .rating span {
+    margin-left: 0.25em;
+}
+
+.details .tags {
+    display: flex;
+    gap: .375em;
+    margin-bottom: .875em;
+    font-size: .85em;
+}
+
+.details .tags span {
+    padding: .35rem .65rem;
+    color: #fff;
+    border: 1.5px solid rgba(255 255 255 / 0.4);
+    border-radius: 4px;
+    border-radius: 50px;
+}
+
+.details .desc {
+    color: #fff;
+    opacity: .8;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+.details .cast h3 {
+    margin-bottom: .5em;
+}
+
+.details .cast ul {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    width: 100%;
+}
+
+.details .cast ul li {
+    list-style: none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1.5px solid #fff;
+}
+
+.details .cast ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+                 </code></pre>
+                </li>
+                <li>
+                  <div class="telegram">
+                    <h5>Join Telegram Channel for Resources</h5>
+                    <a
+                         class="btn btn-outline-dark btn-floating m-1"
+                         class="text-black"
+                         role="button"
+                         href="https://t.me/codingcheff"
+                         ><i class="fab fa-telegram"></i
+                        ></a>
+                  </div>
+                </li>
+            </ol>
+        </div>
+        <!------------------------------------------- mid Section  ------------------------------------------>
+
+        <!----------------------------------------------- Footer Section  ------------------------------------->
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div>
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #45526e"
+          >
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              CodingCheff
+            </h6>
+            <p>
+              Coding_cheff, your virtual guide to the delicious world of web development.
+              We serve up sizzling web development tips and tricks to make your coding journey a flavorful experience
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+            <p>
+              <a class="text-white">Web Designing</a>
+            </p>
+            <p>
+              <a class="text-white">Web Development</a>
+            </p>
+            <p>
+              <a class="text-white">App Designing</a>
+            </p>
+            <p>
+              <a class="text-white">App Development</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white" href="/index.html">Home</a>
+            </p>
+            <p>
+              <a class="text-white" href="/pages/blog.html">Blog</a>
+            </p>
+            <p>
+              <a class="text-white" href="/pages/contact_us.html">Contact Us</a>
+            </p>
+            
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> India, Delhi Shahdara</p>
+            <p><i class="fas fa-envelope mr-3"></i> codingcheff@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +91 9868980710</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-3">
+
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2023 Copyright:
+              <a class="text-white" href="http://codingcheff.000.pe/"
+                 >codingcheff.com</a
+                >
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button" href="http://codingcheff.000.pe/"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="https://www.instagram.com/coding_cheff/"
+               ><i class="fab fa-instagram"></i
+              ></a>
+
+              <!-- Github  -->
+              <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="https://github.com/Mradroit611"
+               ><i class="fab fa-github"></i
+              ></a>
+
+              <!-- Linkedin  -->
+              <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="www.linkedin.com/in/sanjay-verma-149910245"
+               ><i class="fab fa-linkedin"></i
+              ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+        <!-----------------------------------------------end of Footer Section  ------------------------------------->
+
+        <!-- Scroll to Top button  -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+        <!-- end of scroll button  -->
+        <!-- Loading Spinner -->
+        <div class="loader"></div>
+        <!-- end of loading spinner  -->
+
+        <!-- script  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="/JS/contact.js"></script>
+</body>
+</html>

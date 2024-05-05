@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding_cheff</title>
+    <link rel="icon" href="/sources/coding_cheff.png" type="image/icon type">
+    <!-- <link rel="stylesheet" href="/css/contact_style.css"> -->
+    <link rel="stylesheet" href="/css/prism.css">
+    <script src="/JS/prism.js"></script>
+    <link rel="stylesheet" href="/css/stylee.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+
+</head>
+<body>
+    <body>
+        <!------------------------------------------ Navbar Section  ---------------------------------------->
+        
+        <nav>
+            <div class="navbar">
+              <i class='bx bx-menu'></i>
+              <div class="logo"><a href="/index.html">CodingCheff</a></div>
+              <div class="nav-links">
+                <div class="sidebar-logo">
+                  <span class="logo-name">CodingCheff</span>
+                  <i class='bx bx-x' ></i>
+                </div>
+                <ul class="links">
+                  <li><a href="/index.html">HOME</a></li>
+                  <li><a href="/pages/blog.html">BLOG</a></li>
+                  <li>
+                    <a href="#">HTML & CSS</a>
+                    <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                    <ul class="htmlCss-sub-menu sub-menu">
+                      <li><a href="/html&Css/website_designs.html">Website Designs</a></li>
+                      <li><a href="/html&Css/login_forms.html">Login Forms</a></li>
+                      <li><a href="/html&Css/card_designs.html">Card Design</a></li>
+                      <li><a href="/html&Css/Navigation_bars.html">Navigation Bars</a></li>
+                      <li><a href="#">Sidebar Menu</a></li>
+                      <li class="more">
+                        <span><a href="#">More</a>
+                        <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                      </span>
+                        <ul class="more-sub-menu sub-menu">
+                          <li><a href="#">Glowing Effects</a></li>
+                          <li><a href="/html&Css/CSS_buttons.html">CSS Buttons</a></li>
+                          <li><a href="#">Loaders</a></li>
+                          <li><a href="/html&Css/3D_animations.html">3D-Aniamtions</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">JAVASCRIPT</a>
+                    <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                    <ul class="js-sub-menu sub-menu">
+                      <li><a href="/Javascript_programs/image_sliders.html">Image SLiders</a></li>
+                      <li><a href="/Javascript_programs/carousel.html">Carousel</a></li>
+                      <li><a href="#">Form Validation</a></li>
+                      <!-- <li><a href="#">API projects</a></li> -->
+                    </ul>
+                  </li>
+                  <li><a href="/pages/contact_us.html">CONTACT US</a></li>
+                </ul>
+              </div>
+              <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                  <input type="text" placeholder="Search...">
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!------------------------------------------- End of Navbar Section  -------------------------------->
+        <!------------------------------------------- mid Section  ------------------------------------------>
+        <div class="container">
+            <ol>
+                <li><b>HTML Code:</b> 
+                    <pre class="language-html"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en" &gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;CodePen - Flex Hover Slider | HTML + CSS + jQuery&lt;/title&gt;
+  &lt;link rel="stylesheet" href="./style.css"&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- partial:index.partial.html --&gt;
+&lt;div class="flex-container"&gt;
+	&lt;div class="flex-slide home"&gt;
+		&lt;div class="flex-title flex-title-home"&gt;Home&lt;/div&gt;
+		&lt;div class="flex-about flex-about-home"&gt;&lt;p&gt;Click here to navigate to the home section of the website&lt;/p&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="flex-slide about"&gt;
+		&lt;div class="flex-title"&gt;About&lt;/div&gt;
+		&lt;div class="flex-about"&gt;&lt;p&gt;Click here to navigate to the About section of the website&lt;/p&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="flex-slide work"&gt;
+		&lt;div class="flex-title"&gt;Work&lt;/div&gt;
+		&lt;div class="flex-about"&gt;&lt;p&gt;Listing relevant snippets of work:&lt;/p&gt;
+			&lt;ul&gt;
+				&lt;li&gt;First piece of work&lt;/li&gt;
+				&lt;li&gt;Second piece of work&lt;/li&gt;
+				&lt;li&gt;Third piece of work&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="flex-slide contact"&gt;
+		&lt;div class="flex-title"&gt;Contact&lt;/div&gt;
+				&lt;div class="flex-about"&gt;
+					&lt;p&gt;Use the contact form below&lt;/p&gt;
+					&lt;form class="contact-form"&gt;
+						&lt;p&gt;Email &lt;input type="text" name="email"&gt;&lt;/p&gt;
+						&lt;p&gt;Comment &lt;textarea type="text" name="comment" row="5"&gt;&lt;/textarea&gt;&lt;/p&gt;
+						&lt;p&gt;&lt;input type="submit" name="email" value="Send Message"&gt;&lt;/p&gt;
+					&lt;/form&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- partial --&gt;
+  &lt;script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'&gt;&lt;/script&gt;
+&lt;script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/jquery.waitforimages.min.js'&gt;&lt;/script&gt;&lt;script  src="./script.js"&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+                         </code></pre>
+                </li> 
+                <li><b>CSS Code:</b> 
+                    <pre class="language-js"><code>
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.flex-container {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.flex-title {
+  color: #f1f1f1;
+  position: relative;
+  font-size: 6vw;
+  margin: auto;
+  text-align: center;
+  transform: rotate(90deg);
+  top: 15%;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+@media screen and (max-width: 768px) {
+  .flex-title {
+    transform: rotate(0deg) !important;
+  }
+}
+
+.flex-about {
+  opacity: 0;
+  color: #f1f1f1;
+  position: relative;
+  width: 70%;
+  font-size: 2vw;
+  padding: 5%;
+  top: 20%;
+  border: 2px solid #f1f1f1;
+  border-radius: 10px;
+  line-height: 1.3;
+  margin: auto;
+  text-align: left;
+  transform: rotate(0deg);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+@media screen and (max-width: 768px) {
+  .flex-about {
+    padding: 0%;
+    border: 0px solid #f1f1f1;
+  }
+}
+
+.flex-slide {
+  -webkit-flex: 1;
+  /* Safari 6.1+ */
+  -ms-flex: 1;
+  /* IE 10 */
+  flex: 1;
+  cursor: pointer;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+@media screen and (max-width: 768px) {
+  .flex-slide {
+    overflow: auto;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-slide p {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-slide ul li {
+    font-size: 2em;
+  }
+}
+
+.flex-slide:hover {
+  -webkit-flex-grow: 3;
+  flex-grow: 3;
+}
+
+.home {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-macquarie-71208_1920.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+@media screen and (min-width: 768px) {
+  .home {
+    animation: aboutFlexSlide 3s 1;
+    animation-delay: 0s;
+  }
+}
+
+@keyframes aboutFlexSlide {
+  0% {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+  }
+  50% {
+    -webkit-flex-grow: 3;
+    flex-grow: 3;
+  }
+  100% {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .flex-title-home {
+    transform: rotate(90deg);
+    top: 15%;
+    animation: aboutFlexSlide 3s 1;
+    animation-delay: 0s;
+  }
+}
+
+@keyframes homeFlextitle {
+  0% {
+    transform: rotate(90deg);
+    top: 15%;
+  }
+  50% {
+    transform: rotate(0deg);
+    top: 15%;
+  }
+  100% {
+    transform: rotate(90deg);
+    top: 15%;
+  }
+}
+.flex-about-home {
+  opacity: 0;
+}
+@media screen and (min-width: 768px) {
+  .flex-about-home {
+    animation: aboutFlexSlide 3s 1;
+    animation-delay: 0s;
+  }
+}
+
+@keyframes flexAboutHome {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/beach-2089959_1280.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+.contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-696098_1920.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.work {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/forest-208517_1280.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+@-webkit-keyframes sk-cubemove {
+  25% {
+    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+  }
+  50% {
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+  }
+  75% {
+    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@keyframes sk-cubemove {
+  25% {
+    transform: translateX(42px) rotate(-90deg) scale(0.5);
+    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+  }
+  50% {
+    transform: translateX(42px) translateY(42px) rotate(-179deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+  }
+  50.1% {
+    transform: translateX(42px) translateY(42px) rotate(-180deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+  }
+  75% {
+    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+  }
+  100% {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+  }
+}
+
+                 </code></pre>
+                </li>
+
+                <li><b>JS Code:</b> 
+                    <pre class="language-js"><code>
+(function(){
+	$('.flex-container').waitForImages(function() {
+		$('.spinner').fadeOut();
+	}, $.noop, true);
+	
+	$(".flex-slide").each(function(){
+		$(this).hover(function(){
+			$(this).find('.flex-title').css({
+				transform: 'rotate(0deg)',
+				top: '10%'
+			});
+			$(this).find('.flex-about').css({
+				opacity: '1'
+			});
+		}, function(){
+			$(this).find('.flex-title').css({
+				transform: 'rotate(90deg)',
+				top: '15%'
+			});
+			$(this).find('.flex-about').css({
+				opacity: '0'
+			});
+		})
+	});
+})();
+                        
+                 </code></pre>
+                </li>
+                <li>
+                  <div class="telegram">
+                    <h5>Join Telegram Channel for Resources</h5>
+                    <a
+                         class="btn btn-outline-dark btn-floating m-1"
+                         class="text-black"
+                         role="button"
+                         href="https://t.me/codingcheff"
+                         ><i class="fab fa-telegram"></i
+                        ></a>
+                  </div>
+                </li>
+            </ol>
+        </div>
+        <!------------------------------------------- mid Section  ------------------------------------------>
+
+        <!----------------------------------------------- Footer Section  ------------------------------------->
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div>
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #45526e"
+          >
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              CodingCheff
+            </h6>
+            <p>
+              Coding_cheff, your virtual guide to the delicious world of web development.
+              We serve up sizzling web development tips and tricks to make your coding journey a flavorful experience
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+            <p>
+              <a class="text-white">Web Designing</a>
+            </p>
+            <p>
+              <a class="text-white">Web Development</a>
+            </p>
+            <p>
+              <a class="text-white">App Designing</a>
+            </p>
+            <p>
+              <a class="text-white">App Development</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white" href="/index.html">Home</a>
+            </p>
+            <p>
+              <a class="text-white" href="/pages/blog.html">Blog</a>
+            </p>
+            <p>
+              <a class="text-white" href="/pages/contact_us.html">Contact Us</a>
+            </p>
+            
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> India, Delhi Shahdara</p>
+            <p><i class="fas fa-envelope mr-3"></i> codingcheff@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +91 9868980710</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-3">
+
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2023 Copyright:
+              <a class="text-white" href="http://codingcheff.000.pe/"
+                 >codingcheff.com</a
+                >
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button" href="http://codingcheff.000.pe/"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="https://www.instagram.com/coding_cheff/"
+               ><i class="fab fa-instagram"></i
+              ></a>
+
+              <!-- Github  -->
+              <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="https://github.com/Mradroit611"
+               ><i class="fab fa-github"></i
+              ></a>
+
+              <!-- Linkedin  -->
+              <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="www.linkedin.com/in/sanjay-verma-149910245"
+               ><i class="fab fa-linkedin"></i
+              ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+        <!-----------------------------------------------end of Footer Section  ------------------------------------->
+
+        <!-- Scroll to Top button  -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+        <!-- end of scroll button  -->
+        <!-- Loading Spinner -->
+        <div class="loader"></div>
+        <!-- end of loading spinner  -->
+
+        <!-- script  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="/JS/contact.js"></script>
+</body>
+</html>

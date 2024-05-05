@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding_cheff</title>
+    <link rel="icon" href="/sources/coding_cheff.png" type="image/icon type">
+    <!-- <link rel="stylesheet" href="/css/contact_style.css"> -->
+    <link rel="stylesheet" href="/css/prism.css">
+    <script src="/JS/prism.js"></script>
+    <link rel="stylesheet" href="/css/stylee.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+
+</head>
+<body>
+    <body>
+        <!------------------------------------------ Navbar Section  ---------------------------------------->
+        
+        <nav>
+            <div class="navbar">
+              <i class='bx bx-menu'></i>
+              <div class="logo"><a href="/index.html">CodingCheff</a></div>
+              <div class="nav-links">
+                <div class="sidebar-logo">
+                  <span class="logo-name">CodingCheff</span>
+                  <i class='bx bx-x' ></i>
+                </div>
+                <ul class="links">
+                  <li><a href="/index.html">HOME</a></li>
+                  <li><a href="/pages/blog.html">BLOG</a></li>
+                  <li>
+                    <a href="#">HTML & CSS</a>
+                    <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                    <ul class="htmlCss-sub-menu sub-menu">
+                      <li><a href="/html&Css/website_designs.html">Website Designs</a></li>
+                      <li><a href="/html&Css/login_forms.html">Login Forms</a></li>
+                      <li><a href="/html&Css/card_designs.html">Card Design</a></li>
+                      <li><a href="/html&Css/Navigation_bars.html">Navigation Bars</a></li>
+                      <li><a href="#">Sidebar Menu</a></li>
+                      <li class="more">
+                        <span><a href="#">More</a>
+                        <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                      </span>
+                        <ul class="more-sub-menu sub-menu">
+                          <li><a href="#">Glowing Effects</a></li>
+                          <li><a href="/html&Css/CSS_buttons.html">CSS Buttons</a></li>
+                          <li><a href="#">Loaders</a></li>
+                          <li><a href="/html&Css/3D_animations.html">3D-Aniamtions</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">JAVASCRIPT</a>
+                    <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                    <ul class="js-sub-menu sub-menu">
+                      <li><a href="/Javascript_programs/image_sliders.html">Image SLiders</a></li>
+                      <li><a href="/Javascript_programs/carousel.html">Carousel</a></li>
+                      <li><a href="#">Form Validation</a></li>
+                      <!-- <li><a href="#">API projects</a></li> -->
+                    </ul>
+                  </li>
+                  <li><a href="/pages/contact_us.html">CONTACT US</a></li>
+                </ul>
+              </div>
+              <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                  <input type="text" placeholder="Search...">
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!------------------------------------------- End of Navbar Section  -------------------------------->
+        <!------------------------------------------- mid Section  ------------------------------------------>
+        <div class="container">
+            <ol>
+                <li><b>HTML Code:</b> 
+                    <pre class="language-html"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en" &gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Codingcheff - Login page&lt;/title&gt;
+  &lt;link rel="stylesheet" href="/style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="es" dir="ltr"&gt;
+  &lt;head&gt;          
+    &lt;meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0"&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="/style.css"&gt;
+    &lt;link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class="main"&gt;
+      &lt;div class="container a-container" id="a-container"&gt;
+        &lt;form class="form" id="a-form" method="post" action="signup.php"&gt;
+          &lt;h2 class="form_title title"&gt;Create Account&lt;/h2&gt;
+          &lt;div class="form__icons"&gt;&lt;img class="form__icon" src="sources/facebook.png" alt=""&gt;&lt;img class="form__icon" src="/sources/linkedin.png"&gt;&lt;img class="form__icon" src="/sources/twitter.png"&gt;&lt;/div&gt;&lt;span class="form__span"&gt;or use email for registration&lt;/span&gt;
+          &lt;input class="form__input" type="text" placeholder="Name" name ="username"&gt;
+          &lt;input class="form__input" type="text" placeholder="Email" name="email"&gt;
+          &lt;input class="form__input" type="password" placeholder="Password" name="password"&gt;
+          &lt;button class="form__button button switch-btn" type='submit' name ="signup"&gt;SIGN UP&lt;/button&gt;
+        &lt;/form&gt;
+      &lt;/div&gt;
+      &lt;div class="container b-container" id="b-container"&gt;
+        &lt;form class="form" id="b-form" method="post" action="index.html"&gt;
+          &lt;h2 class="form_title title"&gt;Sign in to Coding_cheff&lt;/h2&gt;
+          &lt;div class="form__icons"&gt;&lt;img class="form__icon" src="/sources/facebook.png" alt=""&gt;&lt;img class="form__icon" src="/sources/linkedin.png"&gt;&lt;img class="form__icon" src="/sources/twitter.png"&gt;&lt;/div&gt;&lt;span class="form__span"&gt;or use your email account&lt;/span&gt;
+          &lt;input class="form__input" type="text" placeholder="Email" name = "email"&gt;
+          &lt;input class="form__input" type="password" placeholder="Password" name = "password"&gt;&lt;a class="form__link"&gt;Forgot your password?&lt;/a&gt;
+          &lt;button class="form__button button switch-btn" name = "signin"&gt;SIGN IN&lt;/button&gt;
+        &lt;/form&gt;
+      &lt;/div&gt;
+      &lt;div class="switch" id="switch-cnt"&gt;
+        &lt;div class="switch__circle"&gt;&lt;/div&gt;
+        &lt;div class="switch__circle switch__circle--t"&gt;&lt;/div&gt;
+        &lt;div class="switch__container" id="switch-c1"&gt;
+          &lt;h2 class="switch__title title"&gt;Welcome Back !&lt;/h2&gt;
+          &lt;p class="switch__description description"&gt;To keep connected with Coding_cheff please login with your personal info&lt;/p&gt;
+          &lt;button class="switch__button button switch-btn"&gt;GO TO SIGN IN&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="switch__container is-hidden" id="switch-c2"&gt;
+          &lt;h2 class="switch__title title"&gt;Hola Everyone!&lt;/h2&gt;
+          &lt;p class="switch__description description"&gt;Enter your personal details to join Coding_cheff&lt;/p&gt;
+          &lt;button class="switch__button button switch-btn"&gt;GO TO SIGN UP&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+  &lt;script  src="/script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+                         </code></pre>
+                </li> 
+                <li><b>CSS Code:</b> 
+                    <pre class="language-js"><code>
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    background-color: #ecf0f3;
+    color: #a0a5a8;
+  }
+  
+  .main {
+    position: relative;
+    width: 1000px;
+    min-width: 1000px;
+    min-height: 600px;
+    height: 600px;
+    padding: 25px;
+    background-color: #ebeef0;
+    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  @media (max-width: 1200px) {
+    .main {
+      transform: scale(0.7);
+    }
+  }
+  @media (max-width: 1000px) {
+    .main {
+      transform: scale(0.6);
+    }
+  }
+  @media (max-width: 800px) {
+    .main {
+      transform: scale(0.5);
+    }
+  }
+  @media (max-width: 600px) {
+    .main {
+      transform: scale(0.4);
+    }
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 600px;
+    height: 100%;
+    padding: 25px;
+    background-color: #ecf0f3;
+    transition: 1.25s;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .form__icon {
+    object-fit: contain;
+    width: 30px;
+    margin: 0 5px;
+    opacity: 0.5;
+    transition: 0.15s;
+  }
+  .form__icon:hover {
+    opacity: 1;
+    transition: 0.15s;
+    cursor: pointer;
+  }
+  .form__input {
+    width: 350px;
+    height: 40px;
+    margin: 4px 0;
+    padding-left: 25px;
+    font-size: 13px;
+    letter-spacing: 0.15px;
+    border: none;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ecf0f3;
+    transition: 0.25s ease;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+  }
+  .form__input:focus {
+    box-shadow: inset 4px 4px 4px #d1d9e6, inset -4px -4px 4px #f9f9f9;
+  }
+  .form__span {
+    margin-top: 30px;
+    margin-bottom: 12px;
+  }
+  .form__link {
+    color: #181818;
+    font-size: 15px;
+    margin-top: 25px;
+    border-bottom: 1px solid #a0a5a8;
+    line-height: 2;
+  }
+  
+  .title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 3;
+    color: #181818;
+  }
+  
+  .description {
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .button {
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.15px;
+    background-color: #4B70E2;
+    color: #f9f9f9;
+    box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
+    border: none;
+    outline: none;
+  }
+  
+  /**/
+  .a-container {
+    z-index: 100;
+    left: calc(100% - 600px );
+  }
+  
+  .b-container {
+    left: calc(100% - 600px );
+    z-index: 0;
+  }
+  
+  .switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 400px;
+    padding: 50px;
+    z-index: 200;
+    transition: 1.25s;
+    background-color: #ecf0f3;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
+  }
+  
+  .switch__circle--t {
+    top: -30%;
+    left: 60%;
+    width: 300px;
+    height: 300px;
+  }
+  .switch__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 400px;
+    padding: 50px 55px;
+    transition: 1.25s;
+  }
+  .switch__button {
+    cursor: pointer;
+  }
+  .switch__button:hover {
+    box-shadow: 6px 6px 10px #d1d9e6, -6px -6px 10px #f9f9f9;
+    transform: scale(0.985);
+    transition: 0.25s;
+  }
+  .switch__button:active, .switch__button:focus {
+    box-shadow: 2px 2px 6px #d1d9e6, -2px -2px 6px #f9f9f9;
+    transform: scale(0.97);
+    transition: 0.25s;
+  }
+  
+  .is-txr {
+    left: calc(100% - 400px );
+    transition: 1.25s;
+    transform-origin: left;
+  }
+  
+  .is-txl {
+    left: 0;
+    transition: 1.25s;
+    transform-origin: right;
+  }
+  
+  .is-z200 {
+    z-index: 200;
+    transition: 1.25s;
+  }
+  
+  .is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: 1.25s;
+  }
+  
+  .is-gx {
+    animation: is-gx 1.25s;
+  }
+  
+  @keyframes is-gx {
+    0%, 10%, 100% {
+      width: 400px;
+    }
+    30%, 50% {
+      width: 500px;
+    }
+  }
+
+                 </code></pre>
+                </li>
+
+                <li><b>JS Code:</b> 
+                    <pre class="language-js"><code>
+let switchCtn = document.querySelector("#switch-cnt");
+let switchC1 = document.querySelector("#switch-c1");
+let switchC2 = document.querySelector("#switch-c2");
+let switchCircle = document.querySelectorAll(".switch__circle");
+let switchBtn = document.querySelectorAll(".switch-btn");
+let aContainer = document.querySelector("#a-container");
+let bContainer = document.querySelector("#b-container");
+let allButtons = document.querySelectorAll(".submit");
+
+let getButtons = (e) => e.preventDefault()
+
+let changeForm = (e) => {
+
+    switchCtn.classList.add("is-gx");
+    setTimeout(function(){
+        switchCtn.classList.remove("is-gx");
+    }, 1500)
+
+    switchCtn.classList.toggle("is-txr");
+    switchCircle[0].classList.toggle("is-txr");
+    switchCircle[1].classList.toggle("is-txr");
+
+    switchC1.classList.toggle("is-hidden");
+    switchC2.classList.toggle("is-hidden");
+    aContainer.classList.toggle("is-txl");
+    bContainer.classList.toggle("is-txl");
+    bContainer.classList.toggle("is-z200");
+}
+
+let mainF = (e) => {
+    for (var i = 0; i < allButtons.length; i++)
+        allButtons[i].addEventListener("click", getButtons );
+    for (var i = 0; i < switchBtn.length; i++)
+        switchBtn[i].addEventListener("click", changeForm)
+}
+
+window.addEventListener("load", mainF);
+                          
+                        
+                 </code></pre>
+                </li>
+                <li>
+                  <div class="telegram">
+                    <h5>Join Telegram Channel for Resources</h5>
+                    <a
+                         class="btn btn-outline-dark btn-floating m-1"
+                         class="text-black"
+                         role="button"
+                         href="https://t.me/codingcheff"
+                         ><i class="fab fa-telegram"></i
+                        ></a>
+                  </div>
+                </li>
+            </ol>
+        </div>
+        <!------------------------------------------- mid Section  ------------------------------------------>
+
+        <!----------------------------------------------- Footer Section  ------------------------------------->
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div>
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #45526e"
+          >
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              CodingCheff
+            </h6>
+            <p>
+              Coding_cheff, your virtual guide to the delicious world of web development.
+              We serve up sizzling web development tips and tricks to make your coding journey a flavorful experience
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+            <p>
+              <a class="text-white">Web Designing</a>
+            </p>
+            <p>
+              <a class="text-white">Web Development</a>
+            </p>
+            <p>
+              <a class="text-white">App Designing</a>
+            </p>
+            <p>
+              <a class="text-white">App Development</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white" href="/index.html">Home</a>
+            </p>
+            <p>
+              <a class="text-white" href="/pages/blog.html">Blog</a>
+            </p>
+            <p>
+              <a class="text-white" href="/pages/contact_us.html">Contact Us</a>
+            </p>
+            
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> India, Delhi Shahdara</p>
+            <p><i class="fas fa-envelope mr-3"></i> codingcheff@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +91 9868980710</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-3">
+
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2023 Copyright:
+              <a class="text-white" href="http://codingcheff.000.pe/"
+                 >codingcheff.com</a
+                >
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button" href="http://codingcheff.000.pe/"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="https://www.instagram.com/coding_cheff/"
+               ><i class="fab fa-instagram"></i
+              ></a>
+
+              <!-- Github  -->
+              <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="https://github.com/Mradroit611"
+               ><i class="fab fa-github"></i
+              ></a>
+
+              <!-- Linkedin  -->
+              <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               href="www.linkedin.com/in/sanjay-verma-149910245"
+               ><i class="fab fa-linkedin"></i
+              ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+        <!-----------------------------------------------end of Footer Section  ------------------------------------->
+
+        <!-- Scroll to Top button  -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+        <!-- end of scroll button  -->
+        <!-- Loading Spinner -->
+        <div class="loader"></div>
+        <!-- end of loading spinner  -->
+
+        <!-- script  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="/JS/contact.js"></script>
+</body>
+</html>
